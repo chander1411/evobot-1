@@ -44,12 +44,12 @@
     "result": "📈 Ping vers l'API: {ping} ms"
   },
   "play": {
-    "description": "Écoute de la musique depuis YouTube ou SoundCloud",
-    "errorNotChannel": "Vous devez d'abord rejoindre un salon vocal!",
-    "errorNotInSameChannel": "Vous devez être dans le même salon que {user}",
-    "usageReply": "Utilisation: {prefix}play <URL YouTube | Nom de la vidéo | URL SoundCloud>",
-    "missingPermissionConnect": "Impossible de se connecter au salon vocal, autorisations manquantes",
-    "missingPermissionSpeak": "Je ne peux pas parler dans ce salon vocal, assurez-vous que j'ai les autorisations!",
+    "description": "Ecoute de la musqiue depuis YouTube ou Soundcloud",
+    "errorNotChannel": "Vous devez d'abord rejoindre un canal vocal!",
+    "errorNotInSameChannel": "Vous devez être dans le même canal que {user}",
+    "usageReply": "Usage: {prefix}play <YouTube URL | Nom Vidéo | Soundcloud URL | Spotify URL>",
+    "missingPermissionConnect": "Impossible de se connecter au canal vocal, autorisations manquantes",
+    "missingPermissionSpeak": "Je ne peux pas parler dans ce canal vocal, assurez-vous que j'ai les autorisations appropriées!",
     "queueAdded": "✅ **{title}** a été ajouté à la file d'attente par <@{author}>",
     "cantJoinChannel": "Impossible de rejoindre le salon: {error}",
     "queueEnded": "❌ La file d'attente est terminée.",
@@ -163,5 +163,16 @@
     "errorNotQueue": "Il n'y a pas de file d'attente.",
     "usagesReply": "Utilisation: {prefix}move <Nombre dans la file d'attente>",
     "result": "<@{author}> 🚚 a déplacé **{title}** vers {index} dans la file d'attente."
+  },
+  "blacklist": {
+    "description": "Empêcher l'utilisateur d'utiliser ce bot.",
+    "noType": "Veuillez fournir un type. Use list, add, ou remove.",
+    "noBlacklisted": "Personne n'est sur liste noire.",
+    "provideMember": "Veuillez fournir un membre à la liste noire.",
+    "botMember": "Veuillez ne jamais mettre un bot sur liste noire.",
+    "alreadyBlacklisted": "Cet utilisateur est déjà sur la liste noire.",
+    "doneBlacklisted": "L'utilisateur a été mis sur liste noire.",
+    "notBlacklisted": "L'utilisateur n'est pas sur la liste noire.",
+    "userWhitelisted": "L'utilisateur a été ajouté à la liste blanche."
   }
 }

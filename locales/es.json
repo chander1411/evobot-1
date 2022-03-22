@@ -53,7 +53,7 @@
     "description": "Reproduciendo música de Youtube o Soundcloud",
     "errorNotChannel": "¡Primero debes unirte a un canal de voz!",
     "errorNotInSameChannel": "Tienes que estár en el mismo canal de voz que {user}",
-    "usageReply": "Uso correcto: {prefix}play <URL de YouTube | Nombre del vídeo | URL de Soundcloud>",
+    "usageReply": "Uso correcto: {prefix}play <URL de YouTube | Nombre del vídeo | URL de Soundcloud | URL de Spotify>",
     "missingPermissionConnect": "No se puede conectar al canal de voz, permisos insuficientes.",
     "missingPermissionSpeak": "¡No se puede reproducir sonidos en este canal de voz, comprueba los permisos!",
     "queueAdded": "✅ <@{author}> ha añadido **{title}** a la cola de reproducción",
@@ -163,5 +163,17 @@
     "errorNotChannel": "¡Primero debes unirte a un canal de voz!",
     "cooldownMessage": "Por favor espera {time} segundos antes de volver a usar el comando `{name}`.",
     "errorCommand": "Se produjo un error con ese comando."
-  }
+  },
+  "blacklist": {
+		"description": "Bloquear al usuario para que no use este bot.",
+		"noType": "Proporcione un tipo. Utilice la lista, agregue o elimine.",
+		"noBlacklisted": "Nadie está en la lista negra.",
+		"provideMember": "Por favor etiquete a un miembro a la lista negra.",
+		"botMember": "Por favor, nunca ponga en la lista negra a un bot.",
+		"alreadyBlacklisted": "Este usuario ya está en la lista negra.",
+		"doneBlacklisted": "El usuario ha sido incluido en la lista negra.",
+		"notBlacklisted": "El usuario no está en la lista negra.",
+		"userWhitelisted": "El usuario ha sido incluido en la lista blanca."
+	}
+
 }

@@ -166,7 +166,7 @@
   },
   "blacklist": {
 		"description": "Bloquear al usuario para que no use este bot.",
-		"noType": "Proporcione un tipo. Utilice la lista, agregue o elimine.",
+		"noType": "Proporcione un comando(add o remove). Utilice la lista, agregue o elimine.",
 		"noBlacklisted": "Nadie está en la lista negra.",
 		"provideMember": "Por favor etiquete a un miembro a la lista negra.",
 		"botMember": "Por favor, nunca ponga en la lista negra a un bot.",

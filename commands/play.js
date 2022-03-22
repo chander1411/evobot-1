@@ -4,10 +4,9 @@ const ytdl = require("ytdl-core");
 const YouTube = require("youtube-sr").default;
 const scdl = require("soundcloud-downloader").default;
 const https = require("https");
-const {SOUNDCLOUD_CLIENT_ID, LOCALE, DEFAULT_VOLUME, SPOTIFY_CLIENT_ID, SPOTIFY_SECRET_ID } = require("../util/EvobotUtil");
+const { SOUNDCLOUD_CLIENT_ID, LOCALE, DEFAULT_VOLUME, SPOTIFY_CLIENT_ID, SPOTIFY_SECRET_ID } = require("../util/EvobotUtil");
 const spotifyURI = require('spotify-uri');
 const Spotify = require('node-spotify-api');
-const i18n = require("i18n");
 
 const spotify = new Spotify({
   id: SPOTIFY_CLIENT_ID,
@@ -156,7 +155,7 @@ module.exports = {
         };
       } catch (error) {
         console.error(error);
-        
+
         if (error.message.includes("410")) {
           return message.reply(i18n.__("play.songAccessErr")).catch(console.error);
         } else {
